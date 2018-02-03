@@ -46,7 +46,7 @@ gcc -c -o HelloWorld.o HelloWorld.c -I"C:\Program Files\Java\jdk1.8.0_144\includ
 gcc -o HelloWorld.dll -s -shared HelloWorld.o -Wl,--subsystem,windows
 ```
 
-Thes may vary in your set-up:
+These may vary in your set-up:
 - Path to your JDK Include for jni.h: C:\Program Files\Java\jdk1.8.0_144\include
 - Path to your JDK Win32 include for jni_md.h: C:\Program Files\Java\jdk1.8.0_144\include\win32
 - I'm using TDM gcc: C:\TDM-GCC-64\bin\gcc.exe
