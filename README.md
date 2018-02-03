@@ -40,7 +40,7 @@ Java_HelloWorld_print(JNIEnv *env, jobject obj)
 }
 ```
 
-## Compile HelloWorld.c
+## Compile HelloWorld.c to create a .dll file
 ```
 gcc -c -o HelloWorld.o HelloWorld.c -I"C:\Program Files\Java\jdk1.8.0_144\include" -I"C:\Program Files\Java\jdk1.8.0_144\include\win32"
 gcc -o HelloWorld.dll -s -shared HelloWorld.o -Wl,--subsystem,windows
