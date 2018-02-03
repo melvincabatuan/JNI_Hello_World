@@ -51,6 +51,11 @@ These may vary in your set-up:
 - Path to your JDK Win32 include for jni_md.h: C:\Program Files\Java\jdk1.8.0_144\include\win32
 - I'm using TDM gcc: C:\TDM-GCC-64\bin\gcc.exe
 
+## Run Java
+```
+java HelloWorld
+```
+
 ## Sample Run
 
 ![](https://github.com/melvincabatuan/JNI_Hello_World/blob/master/Capture.PNG)
